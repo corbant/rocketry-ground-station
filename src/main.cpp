@@ -37,7 +37,7 @@ void loop() {
 		LoRa.beginPacket();
 		LoRa.print("armed");
 		LoRa.endPacket();
-		Serial.println("Armed");
+		Serial.println("armed");
 		
 		delay(100);
 	}
